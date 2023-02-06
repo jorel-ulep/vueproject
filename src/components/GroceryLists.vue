@@ -2,7 +2,7 @@
     <div class="s-center max-w-3xl p-5">
         <div class="s-center max-w-3xl w-full mb-10">
             <button type="button" @click="openModal" class="rounded bg-lime-600 hover:bg-lime-400 text-white px-4 py-2 float-right" v-if="showModal == false"><i class="fa-solid fa-plus"></i> Add Item</button>
-            <button type="button" @click="closeModal" class="rounded bg-red-600 hover:bg-red-400 text-white px-4 py-2 float-right" v-if="showModal"><i class="fa-solid fa-minus"></i> Close</button>
+            <button type="button" @click="closeModal" class="rounded bg-red-600 hover:bg-red-400 text-white px-4 py-2 float-right" v-if="showModal"><i class="fa-solid fa-x"></i></button>
         </div>
         
         <form @submit.prevent="onUpdate" class="s-center max-w-3xl" v-if="showModal">
