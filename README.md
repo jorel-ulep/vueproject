@@ -1,6 +1,6 @@
 # vueproject
 
-Project test for Vue.js Developer
+Project test for Vue.js Developer (Vue.js, .Net, MySql, Axios, and Tailwind)
 
 ## Project setup
 ```
@@ -10,6 +10,11 @@ npm install -g @vue/cli
 ## Create Project
 ```
 vue create vueproject
+```
+
+## Install Axios
+```
+npm install axios
 ```
 
 ### Compiles and hot-reloads for development
