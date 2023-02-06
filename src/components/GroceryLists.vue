@@ -111,7 +111,10 @@
                 this.showModal = true
             },
             closeModal() {
-                this.showModal = false
+                this.showModal = false,
+                this.id = 0,
+                this.productName = '',
+                this.quantity = 0
             }
         }
     }
