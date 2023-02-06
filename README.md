@@ -28,6 +28,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 # Backend is .Net and MySql
 
 ## Create a database and table
+```
 CREATE DATABASE projectapi_db;
 
 USE projectapi_db;
@@ -38,3 +39,4 @@ CREATE TABLE `grocery` (
   `quantity` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
 );
+```
